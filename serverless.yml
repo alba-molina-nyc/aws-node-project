@@ -1,0 +1,16 @@
+org: albamolina
+app: aws-node-project
+service: aws-node-project 
+
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+
+functions: # functions mapped
+  hello:   # hello is a function
+    handler: handler.hello #the first handler is the file handler.js, when you open that you can see the hello function
+
+
+    
